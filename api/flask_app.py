@@ -65,7 +65,7 @@ class Name(Resource):
         return {'message': 'No entry found with this name !'}, 200
 
 
-# Add URL endpoints
+
 api.add_resource(Users, '/users')
 api.add_resource(Cities, '/cities')
 api.add_resource(Name, '/<string:name>')
