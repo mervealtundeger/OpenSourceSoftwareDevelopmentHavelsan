@@ -10,4 +10,12 @@ def asalSayilariBul(sayi1, sayi2):
 sayi1 = int(input('sayi 1 : '))
 sayi2 = int(input('sayi 2 : '))
 
+def Fak(sayi3,a):
+	for i in range(2,sayi3+1)
+		a=a*i
+	print a
+
+sayi3=input("sayi giriniz:")
+a=1
+Fak(sayi3,a)
 asalSayilariBul(sayi1, sayi2)
