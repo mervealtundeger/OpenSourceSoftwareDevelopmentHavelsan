@@ -14,6 +14,10 @@ class kupAl(Resource):
     def get(self,number):
         kupu=number**3
         return {'Kupu' : kupu}, 200
+class kareAl(Resource):
+    def get(self,number):
+        karesi=number**2
+        return {'Karesi' : karesi}, 200        
 
 class Name(Resource):
     def get(self,name):
@@ -23,6 +27,11 @@ class Name(Resource):
 api.add_resource(rastgeleSayiSinif, '/rastgeleSayi')
 api.add_resource(kupAl, '/kupAl/<int:number>')
 api.add_resource(Name, '/<string:name>')
+
+api.add_resource(rastgeleSayiSinif, '/rastgeleSayi')
+api.add_resource(kareAl, '/kareAl/<int:number>')
+api.add_resource(Name, '/<string:name>')
+
 
 
 if __name__ == '__main__':
