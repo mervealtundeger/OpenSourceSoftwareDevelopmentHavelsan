@@ -5,4 +5,4 @@ RUN pip install flask
 RUN pip install flask_restful
 RUN pip install pandas
 
-CMD ["python3", ".odev.py"]
+CMD ["python3", "/odev.py"]
