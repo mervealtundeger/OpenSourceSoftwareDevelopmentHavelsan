@@ -1,15 +1,15 @@
 # OpenSourceSoftwareDevelopment
-Basit bir amaçlı REST API servisi oluşturulması--------> images2 and api
+Basit bir amaçlı REST API servisi oluşturulması
 
 
-halka acil api------->python and images
+halka acik api------->
 
 
-ubuntu------->images3 and odev.py
+ubuntu------->
 
 
 
-ubuntu-->entegrasyon,push,commit,tag,dallandırma--------------------->odev5.py and images5
+ubuntu-->entegrasyon,push,commit,tag,dallandırma
 
 
 NOT:images5 klasörü user-frontend branch altındadır.
